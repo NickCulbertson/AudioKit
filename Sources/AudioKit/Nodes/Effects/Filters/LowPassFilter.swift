@@ -54,7 +54,7 @@ public class LowPassFilter: Node {
         resonance: AUValue = resonanceDef.defaultValue
     ) {
         self.input = input
-
+        print("Apple's Low Pass Filter")
         associateParams(with: effectAU)
 
         self.cutoffFrequency = cutoffFrequency
